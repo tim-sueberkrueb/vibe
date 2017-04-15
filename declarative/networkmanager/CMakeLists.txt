@@ -20,16 +20,21 @@ set(SOURCES
     appletproxymodel.cpp
     availabledevices.cpp
     connectionicon.cpp
+    connectionmodel.cpp
+    connectionsettings.cpp
     debug.cpp
     enabledconnections.cpp
     enums.cpp
     handler.cpp
+    ipv4settings.cpp
     networkitemslist.cpp
     networkmodel.cpp
     networkmodelitem.cpp
     networkstatus.cpp
     plugin.cpp
+    technologyproxymodel.cpp
     uiutils.cpp
+    wiredsettings.cpp
 )
 
 add_library(nmplugin SHARED ${SOURCES})
