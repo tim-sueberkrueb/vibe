@@ -35,9 +35,9 @@
 #include <QtDBus/QDBusMetaType>
 
 #include "mpris2player.h"
-#include "mprisadaptor.h"
-#include "mprisplayeradaptor.h"
-#include "dbuspropertiesadaptor.h"
+#include "mediaplayer2_interface.h"
+#include "player_interface.h"
+#include "properties_interface.h"
 
 const QString objectPath("/org/mpris/MediaPlayer2");
 const QString playerInterface("org.mpris.MediaPlayer2.Player");
@@ -521,5 +521,3 @@ void Mpris2Player::copyProperty(const QString &name, const QVariant &value,
         qCWarning(MPRIS2_PLAYER) << "Unhandled property:" << name;
     }
 }
-
-#include "moc_mpris2player.cpp"

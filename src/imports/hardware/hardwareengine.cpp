@@ -123,5 +123,3 @@ QQmlListProperty<StorageDevice> HardwareEngine::storageDevices()
     };
     return QQmlListProperty<StorageDevice>(this, 0, countFunc, atFunc);
 }
-
-#include "moc_hardwareengine.cpp"

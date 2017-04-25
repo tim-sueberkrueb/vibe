@@ -104,5 +104,3 @@ void StorageDevice::unmount()
     Solid::StorageAccess *access = m_device.as<Solid::StorageAccess>();
     access->teardown();
 }
-
-#include "moc_storagedevice.cpp"

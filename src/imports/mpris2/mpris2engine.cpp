@@ -89,5 +89,3 @@ Mpris2Player *Mpris2Engine::playersAt(QQmlListProperty<Mpris2Player> *prop, int 
     Mpris2Engine *engine = static_cast<Mpris2Engine *>(prop->object);
     return engine->m_players.at(index);
 }
-
-#include "moc_mpris2engine.cpp"

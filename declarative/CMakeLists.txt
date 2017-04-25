@@ -1,8 +1,0 @@
-add_subdirectory(core)
-add_subdirectory(hardware)
-add_subdirectory(mpris2)
-add_subdirectory(networkmanager)
-add_subdirectory(notifications)
-add_subdirectory(policykit)
-add_subdirectory(pulseaudio)
-add_subdirectory(wallet)
